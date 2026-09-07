@@ -312,3 +312,42 @@ section:last-of-type { border-bottom: none; }
   text-align: center;
   padding: 40px 0 0;
 }
+
+/* CTA shortcut near the top of long pages --------------------------------- */
+.cta-shortcut {
+  margin: 20px 0 32px;
+}
+
+/* Mobile fixes -------------------------------------------------------------- */
+@media (max-width: 640px) {
+  .nav {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 12px 16px;
+  }
+
+  .nav .brand { font-size: 0.85rem; }
+
+  .nav-links {
+    width: 100%;
+    gap: 8px 16px;
+    font-size: 0.8rem;
+  }
+
+  .section-title {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+  }
+
+  .hero-cta {
+    bottom: 12px;
+    gap: 8px;
+  }
+
+  .hero-cta .btn {
+    padding: 10px 18px;
+    font-size: 0.8rem;
+  }
+}
