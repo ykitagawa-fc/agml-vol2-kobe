@@ -268,6 +268,8 @@ section:last-of-type { border-bottom: none; }
 /* Video embed --------------------------------------------------------------- */
 .video-embed {
   position: relative;
+  max-width: 640px;
+  margin: 0 auto;
   padding-bottom: 56.25%;
   height: 0;
   overflow: hidden;
