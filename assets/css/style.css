@@ -212,6 +212,48 @@ section:last-of-type { border-bottom: none; }
   .info-grid dt:first-child { border-top: none; padding-top: 0; }
 }
 
+/* Performers -------------------------------------------------------------- */
+.performers-note {
+  color: var(--text-dim);
+  font-size: 0.8rem;
+  margin: -18px 0 28px;
+}
+
+.performers-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
+  gap: 24px 16px;
+  text-align: center;
+}
+
+.performer {
+  display: block;
+  text-decoration: none;
+  color: var(--text);
+}
+
+.performer-icon {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 auto 10px;
+  border: 2px solid var(--border);
+  transition: border-color 0.15s ease, transform 0.15s ease;
+}
+
+.performer:hover .performer-icon {
+  border-color: var(--cyan);
+  transform: translateY(-2px);
+}
+
+.performer-name {
+  display: block;
+  font-size: 0.82rem;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
 /* Cards / links section ------------------------------------------------- */
 .card-grid {
   display: grid;
