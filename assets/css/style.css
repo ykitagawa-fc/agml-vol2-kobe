@@ -221,7 +221,7 @@ section:last-of-type { border-bottom: none; }
 
 .performers-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
   gap: 24px 16px;
   text-align: center;
 }
@@ -252,6 +252,11 @@ section:last-of-type { border-bottom: none; }
   font-size: 0.82rem;
   font-weight: 600;
   line-height: 1.4;
+}
+
+.performer-name .nowrap {
+  display: block;
+  white-space: nowrap;
 }
 
 /* Cards / links section ------------------------------------------------- */
